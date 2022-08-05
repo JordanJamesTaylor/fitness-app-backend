@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 2022_08_04_153338) do
   create_table "cals", force: :cascade do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer "user_id"
     t.string "title"
     t.string "start"
     t.string "end"
@@ -24,10 +25,9 @@ ActiveRecord::Schema.define(version: 2022_08_04_153338) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer "workout_id"
-    t.integer "cal_id"
+    t.integer "age"
     t.string "name"
     t.string "username"
-    t.integer "age"
   end
 
   create_table "workouts", force: :cascade do |t|

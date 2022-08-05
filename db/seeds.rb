@@ -4,9 +4,12 @@ User.create(name: "Deacon Saint-John", username: "saintJohn95", age: 27)
 User.create(name: "Connor Hickman", username: "hickers123", age: 32)
 User.create(name: "Sarah Locke", username: "sLockenKey", age: 23)
 
+Cal.create(user_id: 2, title: "Lower Body", start: "2022-08-05T04:13:00.000Z", end: "2022-08-05T18:14:00.647Z")
+Cal.create(user_id: 2, title: "Rest Day", start: "2022-08-06T04:13:00.000Z", end: "2022-08-06T18:14:00.647Z")
+Cal.create(user_id: 2, title: "Upper Body", start: "2022-08-07T04:13:00.000Z", end: "2022-08-07T18:14:00.647Z")
+Cal.create(user_id: 2, title: "Rest Day", start: "2022-08-08T04:13:00.000Z", end: "2022-08-10T18:14:00.647Z")
 
 #WORKOUT ONE
-
 
 Workout.create(
     user_id: 1, name: "Scissor Kick", reps: "10", sets: "3", info: "Scissor kicks work the entire core, including the transverse abdominis, rectus abdominis, obliques, hip flexors, and spine.", difficulty: "BEGINNER", muscle: "ABDOMINIS"

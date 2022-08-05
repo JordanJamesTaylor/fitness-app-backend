@@ -3,6 +3,7 @@ class CreateCals < ActiveRecord::Migration[6.1]
     create_table :cals do |t|
       t.datetime :created_at
       t.datetime :updated_at
+      t.integer :user_id
       t.string :title
       t.string :start
       t.string :end

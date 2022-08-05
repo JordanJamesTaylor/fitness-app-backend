@@ -4,10 +4,9 @@ class CreateUsers < ActiveRecord::Migration[6.1]
       t.datetime :created_at
       t.datetime :updated_at
       t.integer :workout_id
-      t.integer :cal_id
+      t.integer :age
       t.string :name
       t.string :username
-      t.integer :age
     end
   end
 end
